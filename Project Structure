@@ -1,0 +1,45 @@
+/Personal-Finance-Dashboard
+│
+├── /backend
+│   ├── /app
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── routes.py
+│   │   ├── config.py
+│   │   ├── database.db
+│   │   └── utils.py
+│   ├── requirements.txt
+│   ├── run.py
+│   └── README.md
+│
+├── /frontend
+│   ├── /public
+│   │   ├── index.html
+│   │   └── manifest.json
+│   ├── /src
+│   │   ├── /components
+│   │   │   ├── Header.js
+│   │   │   ├── ExpenseForm.js
+│   │   │   ├── ExpenseList.js
+│   │   │   ├── BudgetChart.js
+│   │   │   └── Insights.js
+│   │   ├── /pages
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   └── Reports.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── styles.css
+│   │   └── serviceWorker.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+│
+├── /database
+│   ├── schema.sql
+│   └── seed_data.sql
+│
+├── .gitignore
+├── LICENSE
+└── README.md
